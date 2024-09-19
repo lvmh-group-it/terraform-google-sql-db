@@ -220,7 +220,7 @@ variable "ip_configuration" {
 }
 
 variable "backup_configuration" {
-  description = "The database backup configuration."
+  description = "The backup_configuration settings subblock for the database settings"
   type = object({
     binary_log_enabled             = bool
     enabled                        = bool
